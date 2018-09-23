@@ -230,6 +230,7 @@ BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_VERS := 28.0
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
