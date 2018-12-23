@@ -24,9 +24,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/citrus/common.mk)
 
-PRODUCT_NAME := superior_whyred
+PRODUCT_NAME := citrus_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi

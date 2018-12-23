@@ -1,0 +1,2 @@
+add_lunch_combo citrus_whyred-user
+add_lunch_combo citrus_whyred-userdebug
